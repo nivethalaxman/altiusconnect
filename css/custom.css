@@ -1,0 +1,238 @@
+    .logo{
+    	float:left;
+    }
+    .nav_right{
+    	float: right;
+    	width: 200px;
+    	height: 50px;
+    }
+
+    .nav_right ul{
+    	text-align: right;
+        margin-top: 5px;
+    }    
+    .nav_right ul li{
+    	display: inline-block;
+    	text-transform: uppercase;
+    	margin-left:5px;
+    }
+    .nav_right ul li a{
+    	border:1px solid #fff;
+    	border-radius:30px;
+    	-webkit-border-radius:30px;
+    	-moz-border-radius:30px;
+    	padding: 5px 10px;
+    	font-size: 10px;
+    	color: #fff;
+    }
+    .nav_right ul li a:hover{
+    	color: #f7941d;
+    	text-decoration: none;
+    	border:1px solid #f7941d;
+    }
+    .mid_text{
+    	text-align: center;
+    	color: #fff;
+    	margin: 225px auto 0px auto;
+    	width: 520px;
+    }
+    .mid_text h1{
+    	font-size: 50px;
+    	font-weight: 200;
+    }
+    .mid_text h1:after{
+        content: "";
+        position: absolute;
+        height: 4px;
+        width: 100px;
+        background: #f58632;
+        /* right: 0; */
+        /* left: 0; */
+        /* top: 0; */
+        /* bottom: 0; */
+        z-index: 999;
+        margin-left: -279px;
+        margin-top: 70px;
+    }
+    .mid_text p{
+    	font-size: 14px;
+    	margin-bottom: 30px;
+    	padding: 25px 50px 0px;
+    }
+    .login_bg{
+    	/*background: #f2f2f2;*/
+    	height: calc(100vh - 70px);
+    }
+    .login_inner{
+    	width: 500px;
+    	margin: 0 auto;
+    }
+    /*------Chat Styles----------*/
+
+
+
+    .bubble{
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 6px #B2B2B2;
+        display: inline-block;
+        padding: 10px 18px;
+        position: relative;
+        vertical-align: top;
+        font-size: 12px;
+    }
+
+    .bubble::before {
+        background-color: #fff;
+        content: "\00a0";
+        display: block;
+        height: 16px;
+        position: absolute;
+        top: 11px;
+        transform:             rotate( 29deg ) skew( -35deg );
+        -moz-transform:    rotate( 29deg ) skew( -35deg );
+        -ms-transform:     rotate( 29deg ) skew( -35deg );
+        -o-transform:      rotate( 29deg ) skew( -35deg );
+        -webkit-transform: rotate( 29deg ) skew( -35deg );
+        width:  20px;
+    }
+
+    .me {
+        float: left;   
+        margin: 5px 45px 5px 20px;         
+    }
+
+    .me::before {
+        box-shadow: -2px 2px 2px 0 #d8d8d8;
+        left: -9px;           
+    }
+
+    .you {
+        float: right;    
+        margin: 5px 20px 5px 45px;  
+        max-width: 80%;       
+    }
+
+    .you::before {
+        box-shadow: 2px -2px 2px 0 #d8d8d8;
+        right: -9px;    
+    }
+
+    /*-------Circle Styles--------*/
+    .rounded-circle-small-left {
+        border-radius: 50%!important;
+        /* padding: 5px; */
+        float: left;
+        width: 50px;
+    }
+    .rounded-circle-small-right {
+        border-radius: 50%!important;
+        /* padding: 5px; */
+        float: right;
+        width: 50px;
+    }
+    .chat_date{
+        border-top: 1px solid #ccc;
+        margin-top: 5px;
+        padding: 5px 0px 0px;
+        font-size: 11px;
+        color: #b3b3b3;
+    }
+    .right_bar{
+    	width: 200px;
+    	height: calc(100vh - 100px);
+    	float:right;
+    	background: #000;
+    	position:fixed;
+    	right: 0;
+    	top:100px;
+    }    
+    nav.side-navbar.right_bar{
+    	right: 0!important;
+    	left:inherit!important;
+    	top: 63px;
+        bottom: 56px;
+        height: inherit!important;
+        background: #d9d9d9!important;
+        width: 180px!important;
+        z-index: 2!important;
+    }
+    .rounded-circle-xs{
+        border-radius: 50%!important;
+        /* padding: 5px; */
+        float: left;
+        width:30px;
+        margin-right: 10px;
+    }
+    .head_ic{
+    	margin: 8px 0px 0 0;
+        float: left;
+    }
+    .header-login{
+    	margin-top: 20px;
+    }
+    .form-group lable, .form-group label{
+        font-size: 13px!important;
+        margin-bottom:0px!important;
+    }
+    .login_footer{
+        border-top: 1px solid #ececec;
+    margin: 9px 0px 0px;
+    padding: 9px 20px;
+    text-align: center;
+
+    }
+    .forgot-pass{
+        text-align: center;
+    }
+    .forgot-pass a, .login_footer a{
+        font-size: 13px!important;
+    }
+    .nicescroll-cursors{
+        background-color: #0d819a!important;
+    }
+    .brand-text img{
+        width: 63%;
+    }
+    .dot_profile {
+    width: 6px;
+    height: 6px;
+    background: #2cbe63;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    margin-right: 0px;
+    float: right;
+    margin-top: 4px;
+    margin-left: 5px;
+}
+
+.modal-dialog.login {
+    max-width: 290px;
+    margin: 30px auto;
+}
+.modal-dialog.login .modal-body {
+    position: relative;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 20px 35px 0px;
+}
+.modal-dialog.register .modal-body {
+    position: relative;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 28px;
+}
+.next_btn{
+    margin-top: 30px;
+}
+.modal-content{
+   margin: 200PX 0PX;
+}
+.check{
+    width:15px;
+}
